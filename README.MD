@@ -1,9 +1,9 @@
-Shiron AI – Voice-Controlled Personal Assistant
+Billy AI – Voice-Controlled Personal Assistant
 
 
 
 
-Shiron AI (“Starra”) is a voice-controlled AI assistant for Windows that can:
+Billy AI (“Starra”) is a voice-controlled AI assistant for Windows that can:
 
 Chat naturally with GPT-4/3.5
 
@@ -117,4 +117,5 @@ MIT License – free for personal and educational use.
 👤 Author
 
 Raycee Tshabalala – AI & Automation Developer , Website Developer , Backends,   B2BSaaS and more .
+
  [https://github.com/stxrbxyyceecee](https://github.com/stxrbxyyceecee)
