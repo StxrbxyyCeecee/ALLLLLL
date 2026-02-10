@@ -9,8 +9,7 @@ from datetime import datetime
 # =========================
 # ENV
 # =========================
-load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+client = OpenAI()
 
 # =========================
 # APP
@@ -128,4 +127,5 @@ def sleep():
 @app.route("/health")
 def health():
     return jsonify({"status": "online"})
+
 
