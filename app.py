@@ -9,9 +9,12 @@ from datetime import datetime
 # =========================
 # ENV
 # =========================
-load_dotenv()
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Use the environment variable directly
+api_key = os.environ.get("OPENAI_API_KEY")
+if not api_key:
+    raise ValueError("OPENAI_API_KEY environment variable is missing!")
 
+client = OpenAI(api_key=api_key)
 # =========================
 # APP
 # =========================
@@ -146,3 +149,4 @@ def health():
 # =========================
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=int(os.environ.get("PORT", 5000)))
+
